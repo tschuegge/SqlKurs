@@ -84,8 +84,11 @@ CREATE TABLE bestellungkopf (
 
 CREATE TABLE bestellungposition (
   id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-  bestellid INTEGER NOT NULL REFERENCES bestellung(id),
+  bestellid INTEGER NOT NULL REFERENCES bestellungkopf(id),
   artikelid INTEGER NOT NULL REFERENCES artikel(id),
   bestellmenge INTEGER NOT NULL,
   liefermenge INTEGER NOT NULL
 );
+
+-- Optimize database
+VACUUM;
