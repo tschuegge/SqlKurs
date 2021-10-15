@@ -89,6 +89,3 @@ CREATE TABLE bestellungposition (
   bestellmenge INTEGER NOT NULL,
   liefermenge INTEGER NOT NULL
 );
-
--- Optimize database
-VACUUM;

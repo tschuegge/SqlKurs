@@ -2391,3 +2391,6 @@ INSERT INTO bestellungposition (bestellid, artikelid, bestellmenge, liefermenge)
 (479, 26, 32, 10),
 (480, 8, 91, 0),
 (480, 21, 40, 0);
+
+-- Optimize database
+VACUUM;
