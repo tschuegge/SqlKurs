@@ -167,7 +167,7 @@ INSERT INTO mitarbeiter (mitarbeiternr, name, vorname, strasse, plz, ort, gehalt
 (12, 'Meier', 'Wilhelm', 'Römerstrasse 53c', '3000', 'Bern', 6400, 5, '079 164 51 11', 'willi.meier@tradingco.ch'),
 (13, 'Schiff', 'Martin', 'Truchseßstrasse 74', '3000', 'Bern', 6500, 5, '079 343 55 54', 'martin.schiff@tradingco.ch'),
 (14, 'Meier', 'Luise', 'Lyngsbergstrasse 93', '3000', 'Bern', 5000, 6, '079 234 21 28', 'luise.meier@tradingco.ch'),
-(15, 'Remsen', 'Kevin', 'Nonnenstrombergstrasse 22', '8000', 'Zürich', 1800, 6, '079 654 11 14', 'kevin.remsen@tradingco.ch');
+(15, 'Remsen', 'Kevin', 'Nonnenstrombergstrasse 22', '8000', 'Zürich', 650, 6, '079 654 11 14', 'kevin.remsen@tradingco.ch');
 
 INSERT INTO artikel (artikelnr, bezeichnung, herstellerid, nettopreis, mwstid, bestand, mindestbestand, artikelkategorieid, bestellvorschlag) VALUES
 (1511, '106075', 1, 137.93,1, 100, 10, 1, '1'),

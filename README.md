@@ -5,14 +5,16 @@ Dieser Kurs bietet eine kleine Einführung in SQL. Verwendet werden eine Sqlite,
 
 ## Kapitel
 
-Nr. | Name               | Link zu Colab
-----|--------------------|----------------------
-1.0 | SQL Einführung     | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.0%20-%20Einführung.ipynb)
+Nr. | Name               | Aufgaben                                                                                                                                                                                   | Lösungen
+----|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.0 | Einführung         | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.0%20-%20Einführung.ipynb)            | 
+1.1 | DQL Select Basics  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.1%20-%20DQL%20Select%20Basics.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.1%20-%20Lösungen.ipynb)
 
 
 ## Ausführen
 
-Die [Jupyter-Notebooks](https://jupyter.org) können online in [Google Colab](https://colab.research.google.com) oder lokal (z.B. in [Visual Studio Code](https://code.visualstudio.com)) ausgeführt werden. Dafür wird [Python](https://python.org) und [Pandas](https://pandas.pydata.org) (`pip3 install pandas`) benötigt.
+Die [Jupyter-Notebooks](https://jupyter.org) können online in [Google Colab](https://colab.research.google.com) oder lokal (z.B. in [Visual Studio Code](https://code.visualstudio.com)) ausgeführt werden.
+Dafür wird [Python](https://python.org) und [Pandas](https://pandas.pydata.org) (`pip3 install pandas`) benötigt.
 
 
 ## Dateien
