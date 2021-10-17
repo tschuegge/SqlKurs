@@ -10,6 +10,7 @@ Nr. | Name               | Aufgaben                                             
 1.0 | Einführung         | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.0%20-%20Einführung.ipynb)            | 
 1.1 | DQL Select Basics  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.1%20-%20DQL%20Select%20Basics.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.1%20-%20Lösungen.ipynb)
 1.2 | DQL Where          | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.2%20-%20DQL%20Where.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.2%20-%20Lösungen.ipynb)
+1.3 | DQL Joins          | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.3%20-%20DQL%20Joins.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tschuegge/SqlKurs/blob/master/1.3%20-%20Lösungen.ipynb)
 
 
 ## Ausführen

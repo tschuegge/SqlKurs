@@ -37,7 +37,7 @@ CREATE TABLE mwstsatz (
 
 CREATE TABLE artikelkategorie (
   id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-  bezeichnung TEXT NOT NULL UNIQUE
+  bezeichnung TEXT NOT NULL
 );
 
 CREATE TABLE artikel (
@@ -49,13 +49,13 @@ CREATE TABLE artikel (
   mwstid INTEGER NOT NULL REFERENCES mwstsatz(id),
   bestand INTEGER,
   mindestbestand INTEGER CHECK (bestand >= mindestbestand),
-  artikelkategorieid INTEGER NOT NULL REFERENCES artikelkategorie(id),
+  kategorieid INTEGER NOT NULL REFERENCES artikelkategorie(id),
   bestellvorschlag INTEGER
 );
 
 CREATE TABLE abteilung (
   id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-  bezeichnung TEXT NOT NULL UNIQUE
+  bezeichnung TEXT NOT NULL
 );
 
 CREATE TABLE mitarbeiter (
@@ -67,7 +67,7 @@ CREATE TABLE mitarbeiter (
   plz TEXT,
   ort TEXT,
   gehalt REAL NOT NULL,
-  abteilung INTEGER NOT NULL REFERENCES abteilung(id),
+  abteilungid INTEGER NOT NULL REFERENCES abteilung(id),
   telefon TEXT,
   email TEXT
 );
@@ -77,6 +77,7 @@ CREATE TABLE bestellungkopf (
   kundeid INTEGER NOT NULL REFERENCES kunde(id),
   verkaeuferid INTEGER NOT NULL REFERENCES mitarbeiter(id),
   sachbearbeiterid INTEGER NOT NULL REFERENCES mitarbeiter(id),
+  vermittlerid INTEGER REFERENCES kunde(id),
   bestelldatum TEXT NOT NULL,
   lieferdatum TEXT,
   rechnungsbetrag REAL
@@ -84,7 +85,7 @@ CREATE TABLE bestellungkopf (
 
 CREATE TABLE bestellungposition (
   id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-  bestellid INTEGER NOT NULL REFERENCES bestellungkopf(id),
+  bestellungkopfid INTEGER NOT NULL REFERENCES bestellungkopf(id),
   artikelid INTEGER NOT NULL REFERENCES artikel(id),
   bestellmenge INTEGER NOT NULL,
   liefermenge INTEGER NOT NULL
