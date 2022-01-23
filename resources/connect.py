@@ -9,4 +9,8 @@ conn.execute("PRAGMA foreign_keys = ON")
 def query(query):
   return pd.read_sql_query(query, conn)
 
+def execute(query):
+  conn.executescript(query)
+  conn.commit()
+
 print("😊 Verbunden mit Sqlite " + sqlite3.sqlite_version)
